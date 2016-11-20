@@ -1,0 +1,41 @@
+﻿<html>
+    <head>
+       <meta charset="utf-8">
+       <title>О глаголах начистоту</title>
+    </head>
+ <body>
+	<h1>Дратути!<h1>
+	<h5><a href="stats" >Статистика туточки</a></h5>
+	<h5><a href="json" >Зачем-то json</a></h5>
+	<h5><a href="search" >Если вы что-то потеряли</a></h5>
+	<h5><a href="results" >Тут можно найти</a></h5>
+
+ <form action="">
+    <p><b>Носителем какого языка вы являетесь?</b> <input type="text" name="language" value=""></p>
+	<p>Сейчас вам нужно будет ввести в поля глаголы, которыми вы бы описали действие, изображённое на картинке.<p>
+	<img src="{{url_for('static', filename='apple.jpg')}}" />
+	<p><b>Картинка 1</b> <input type="text" name="apple" value=""></p>
+	<img src="{{url_for('static', filename='hands.jpg')}}" />
+	<p><b>Картинка 2</b> <input type="text" name="hands" value=""></p>
+	<img src="{{url_for('static', filename='floor.jpg')}}" />
+	<p><b>Картинка 3</b> <input type="text" name="floor" value=""></p>
+	<img src="{{url_for('static', filename='teeth.jpg')}}" />
+    <p><b>Картинка 4</b> <input type="text" name="teeth" value=""></p>
+	<img src="{{url_for('static', filename='hair.jpg')}}" />
+	<p><b>Картинка 5</b> <input type="text" name="hair" value=""></p>
+	<img src="{{url_for('static', filename='room.jpg')}}" />
+	<p><b>Картинка 6</b> <input type="text" name="room" value=""></p>
+	<img src="{{url_for('static', filename='body.jpg')}}" />
+	<p><b>Картинка 7</b> <input type="text" name="body" value=""></p>
+	<img src="{{url_for('static', filename='window.jpg')}}" />
+	<p><b>Картинка 8</b> <input type="text" name="window" value=""></p>
+	<img src="{{url_for('static', filename='face.jpg')}}" />
+	<p><b>Картинка 9</b> <input type="text" name="face" value=""></p>
+	<img src="{{url_for('static', filename='clothes.jpg')}}" />
+	<p><b>Картинка 10</b> <input type="text" name="clothes" value=""></p>
+	<img src="{{url_for('static', filename='dishes.jpg')}}" />
+	<p><b>Картинка 11</b> <input type="text" name="dishes" value=""></p>
+	<p><input type="submit"></p>
+ </form>
+ </body>
+ </html>
