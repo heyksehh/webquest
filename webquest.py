@@ -164,8 +164,7 @@ def jsonfun():
             arr.append(i)
     f.close()
         
-    data = json.dumps(arr)
-#    json_encode (data, JSON_UNESCAPED_UNICODE)
+    data = json.dumps(arr, ensure_ascii=False)
     return render_template ('jsons.html', data=data)
 
 @app.route('/search')
